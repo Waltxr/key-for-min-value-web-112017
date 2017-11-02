@@ -3,6 +3,11 @@
 
 def key_for_min_value(name_hash)
 
+  if name_hash == {}
+    return nil
+    break
+  end
+
   answer = nil
   lowest = name_hash.first[1]
 
